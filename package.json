@@ -1,0 +1,27 @@
+{
+  "name": "asu_unity_stack",
+  "version": "1.0.0",
+  "description": "Reusable component-based Web Standards style kit for front end development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrounsav/asu_unity_stack.git"
+  },
+  "author": "Jared Rounsavall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrounsav/asu_unity_stack/issues"
+  },
+  "homepage": "https://github.com/jrounsav/asu_unity_stack#readme",
+  "devDependencies": {
+    "polymer-webpack-loader": "^2.0.0",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.8.0"
+  },
+  "dependencies": {
+    "Polymer": "^1.6.1--"
+  }
+}
