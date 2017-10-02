@@ -1,2 +1,2 @@
-# asu_unity_stack
+# asu-unity-stack
 Arizona State University Unity StaCK(Standards Compliance Kit)
