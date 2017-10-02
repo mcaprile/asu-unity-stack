@@ -1,0 +1,17 @@
+nav ul:first-of-type {
+  height: 57px;
+  background-color: #353535;
+  width: 100%;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+nav ul:first-of-type li {
+  float: left;
+  color: white;
+  font-size: 15px;
+  padding: 21px 15px;
+  font-weight: bold;
+  line-height: 1;
+  color: #ededed;
+}

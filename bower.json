@@ -1,12 +1,12 @@
 {
-  "name": "asu_unity_stack",
+  "name": "asu-unity-stack",
   "description": "Reusable component-based Web Standards style kit for front end development.",
   "main": "index.js",
   "authors": [
     "Jared Rounsavall"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/jrounsav/asu_unity_stack",
+  "homepage": "https://github.com/jrounsav/asu-unity-stack",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -17,5 +17,9 @@
   ],
   "devDependencies": {
     "polymer": "Polymer#^2.0.2"
+  },
+  "dependencies": {
+    "aus-hero": "*",
+    "aus-rfi": "*"
   }
 }
