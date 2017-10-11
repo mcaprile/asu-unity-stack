@@ -4,6 +4,7 @@ nav ul:first-of-type {
   width: 100%;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
+  -webkit-margin-after: 0;
 }
 
 nav ul:first-of-type li {
