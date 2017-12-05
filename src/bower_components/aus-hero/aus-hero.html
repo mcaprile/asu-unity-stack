@@ -1,0 +1,58 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="aus-hero">
+  <template>
+    <style>
+      :host {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        width: 100%;
+        margin-top: -1px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: scroll;
+      }
+      :host .hero-wrapper {
+        height: 380px;
+      }
+      .header {
+        padding-top: 40px;
+        padding-left: 40px;
+        color: white;
+        font-size: 75px;
+        font-weight: bold;
+      }
+      .blurb {
+        padding-left: 40px;
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+      }
+    </style>
+    <!-- Template Here -->
+    <div>
+      <div class="hero-wrapper" style="background-image: url({{source}})">
+      <div class="header">{{header}}</div>
+      <div class="blurb">{{blurb}}</div>
+      </div>
+    </div>
+  </template>
+  <script>
+    Polymer({
+      is: 'aus-hero',
+      properties: {
+        source: {
+          type: String,
+          value: ''
+        },
+        header: {
+          type: String,
+          value: ''
+        },
+        blurb: {
+          type: String,
+          value: ''
+        }
+      }
+    });
+  </script>
+</dom-module>

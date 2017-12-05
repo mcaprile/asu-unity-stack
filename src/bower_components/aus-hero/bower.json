@@ -1,0 +1,20 @@
+{
+  "name": "aus-hero",
+  "homepage": "https://github.com/jrounsav/aus-hero",
+  "description": "ASU Unity StaCK Hero Image",
+  "main": "aus-hero.html",
+  "authors": [
+    "Jared Rounsavall"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.1.1"
+  }
+}

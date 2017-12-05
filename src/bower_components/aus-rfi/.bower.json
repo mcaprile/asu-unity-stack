@@ -1,0 +1,29 @@
+{
+  "name": "aus-rfi",
+  "homepage": "https://github.com/jrounsav/aus-rfi",
+  "description": "ASU Unity StaCK RFI",
+  "main": "aus-rfi.html",
+  "authors": [
+    "Jared Rounsavall"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.1.1"
+  },
+  "_release": "5e2f729afc",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5e2f729afc0e5d62ba242d7f11b8274a51651ce5"
+  },
+  "_source": "https://github.com/jrounsav/aus-rfi.git",
+  "_target": "*",
+  "_originalSource": "aus-rfi"
+}

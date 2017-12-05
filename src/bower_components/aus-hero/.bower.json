@@ -1,0 +1,29 @@
+{
+  "name": "aus-hero",
+  "homepage": "https://github.com/jrounsav/aus-hero",
+  "description": "ASU Unity StaCK Hero Image",
+  "main": "aus-hero.html",
+  "authors": [
+    "Jared Rounsavall"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^2.1.1"
+  },
+  "_release": "ee9da7c8cb",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ee9da7c8cb2d65e42d24c55f14f6c2bfa0ddc042"
+  },
+  "_source": "https://github.com/jrounsav/aus-hero.git",
+  "_target": "*",
+  "_originalSource": "aus-hero"
+}
