@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+        <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
         <link rel="import" href="bower_components/mp-slider/mp-slider.html" />
         <style>
             .card {
@@ -24,7 +24,7 @@
 
         <body>
             <div class="card">
-                <mp-slider controls bullets show-thumbs>
+                <mp-slider controls bullets auto-play interval="1000">
                     <div>
                         <img src="images/img1.jpg" />
                         <mp-caption slider-header="Kung Fu Panda"
