@@ -21,6 +21,7 @@
   "dependencies": {
     "aus-hero": "*",
     "aus-rfi": "*",
-    "mp-slider": "^2.0.2"
+    "mp-slider": "^2.0.2",
+    "asu-spotlight":"*"
   }
 }
