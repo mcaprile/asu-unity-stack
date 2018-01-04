@@ -25,11 +25,12 @@
         <div class="slidecontainer">
             <img class="asu-spotlight-image" src="[[imageLink]]" width="1000" height="1000" alt="[[imageAlt]]" title="[[imageAlt]]">           
             <div class="blurbcontainer">
-                <div class="blurbshell [[textPosition]] [[overlayTextWidth]]">
+                <div class$="blurbshell {{textPosition}} {{overlayTextWidth}}">
                     <a href="[[titleLink]]">
                         <h1>[[title]]</h1>
                     </a>
-                    <a class="btn [[buttonColor]] btn-block" href="[[buttonLinkOne]]">[[buttonTextOne]]</a>
+                    <p></p>
+                    <a class$="btn {{buttonColor}} btn-block" href="[[buttonLinkOne]]">[[buttonTextOne]]</a>
                 </div>
             </div>
             <slot></slot>
@@ -63,15 +64,9 @@ class asuSpotlight extends Polymer.Element {
 
             buttonTextTwo: String,
 
-            buttonColor: {
-                type: String,
-                observer: 'buttonColorChanged'
-            }
+            buttonColor: String,
 
-            textPosition: {
-                type: String,
-                observer: 'textPositionChanged'
-            }
+            textPosition: String,
 
             overlayTextWidth: String
         };
@@ -254,4 +249,4 @@ class asuSpotlight extends Polymer.Element {
 
 customElements.define(asuSpotlight.is, asuSpotlight);
     </script>
-
+</dom-module>
