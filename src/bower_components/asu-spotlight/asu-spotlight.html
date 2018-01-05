@@ -10,7 +10,7 @@
             <div class="blurbcontainer">
                 <div class$="blurbshell {{textPosition}} {{overlayTextWidth}}">
                     <a href="[[titleLink]]">
-                        <h1>[[title]]</h1>
+                        <h1>[[spotlightTitle]]</h1>
                     </a>
                     <p>[[tagline]]</p>
                     <template is="dom-if" if="{{buttonOne}}">
@@ -34,7 +34,7 @@ class asuSpotlight extends Polymer.Element {
 
     static get properties() {
         return {
-            title: String,
+            spotlightTitle: String,
 
             titleLink: String,
 
